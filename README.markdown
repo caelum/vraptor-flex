@@ -76,12 +76,10 @@ VRaptor Factory, like this:
 Building in your machine
 ========================
 
-To copy the lib dependecies run:
+You can configure the projects in your eclipse using classpath-example and project-example files, or runing.
 
-    ant libs
+    mvn eclipse:eclipse
 
-And then configure the projects in your eclipse using classpath-example and project-example files.
+And to generate the jar run:
 
-To generate the jar run:
-
-    ant
+    mvn package
